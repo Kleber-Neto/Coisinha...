@@ -1,0 +1,75 @@
+*====== NOVO ===========================*/
+
+
+
+/*====== MENU =======*/
+
+
+
+/*=== GERAL =================================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+body {
+  font-family: 'DM Sans';
+  font-size: 1.6rem;
+
+  text-align: center;
+
+  overflow: overlay;
+
+  background-color: #9E6DC2;
+
+  position: relative;
+
+
+
+}
+
+.logo  {
+  position: absolute;
+  width: 161.14px;
+  height: 36.54px;
+  left: 136.86px;
+  top: 68px;
+}
+
+.menu {
+ 
+
+}
+
+
+ .menu ul li a {
+  color: black;
+  text-decoration: none;
+  
+}
+/
+/*=== FOOTER =================================*/
+
+/*=== BACK TO TOP 
+#backToTopButton {
+  position: fixed;
+  bottom: 1rem;
+  right: 2.5rem;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transform: translateY(100%);
+  transition: 200ms;
+}
+
+#backToTopButton.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
