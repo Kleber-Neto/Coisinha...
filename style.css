@@ -1,0 +1,221 @@
+
+
+
+
+body {
+  background-color: #9E6DC2;
+  font-family: 'DM Sans';
+  text-decoration:none;
+}
+
+  ul {
+    list-style: none; 
+  }
+
+  a {
+    text-decoration: none;
+    color: #ffffff
+  }
+
+
+
+
+.home {
+  position: absolute;
+  width: 1377.06px;
+  height: 595.5px;
+  top: -50.5px;
+}
+
+
+header {
+  position: absolute;
+  width: 1093.68px;
+  height: 44px;
+  left: 128.03px;
+  
+}
+
+.logo {
+  position: absolute;
+  width: 150.74px;
+  height: 36.54px;
+left: 128.03px;
+top: 72px;
+font-size: 44px;
+
+color: #ffffff;
+}
+
+.sublog {
+  position: absolute;
+  height: 30px;
+  left: 130px;
+  top: 158px;
+}
+
+.menu {
+  position: absolute;
+
+height: 21px;
+left: 240.41px;
+top: 32px;
+
+color: #ffffff
+}
+
+.menuzinho {
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+width: 343px;
+height: 21px;
+left: 477.09px;
+top: 80px;
+}
+
+.menu-home {
+
+height: 21px;
+font-style: normal;
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 24px;
+line-height: 21px;
+
+
+
+color: #FFFFFF;
+  
+
+
+}
+
+.parabens {
+  
+  height: 21px;
+  font-style: normal;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size:24px;
+  line-height: 21px;
+  /* identical to box height */
+  
+  
+  color: #FFFFFF;
+  
+  
+  /* Inside auto layout */
+  
+  
+  
+}
+
+.sobre {
+  
+  height: 20px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-size: 24px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+
+
+}
+
+.text {
+  position: absolute;
+
+height: 162px;
+left: 127.22px;
+top: 170px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 54px;
+/* or 150% */
+
+
+color: #000000;
+}
+
+.Declara {
+  position: absolute;
+
+height: 82px;
+left: 255px;
+top: 354px;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+/* or 150% */
+
+
+color: #000000;
+}
+
+footer {
+  position: absolute;
+ 
+height: 54px;
+left: 126.29px;
+top: 600px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+/* or 150% */
+
+
+color: #ffffff;
+}
+
+.home {
+  left: -130px;
+
+}
+
+.perfil {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 120px;
+}
+
+
+/*=== RESPONSIVO =================================*/
+@media only screen and (max-device-width: 900px) {
+  body {width:100%;}
+  }
+
+
+@media (min-width: 1024px) {
+  /*=== GERAL =================================*/
+}
+
+html {
+  chrome://flags/#smooth-scrolling 
+  scroll-behavior: smooth;
+}
+  
+
+  

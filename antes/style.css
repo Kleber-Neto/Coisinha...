@@ -1,0 +1,68 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'DM Sans';
+  font-size: 1.6rem;
+
+  text-align: center;
+
+  overflow: overlay;
+
+  background-color: #9E6DC2;
+
+}
+
+
+
+
+.log {
+  position: absolute;
+  width: 161.14px;
+  height: 36.54px;
+  left: 136.86px;
+  top: 68px; 
+}
+ 
+.sublog {
+  position: absolute;
+  height: 30px;
+  left: 130px;
+  top: 158px;
+}
+
+
+/*==== MENU ====*/
+
+
+
+
+
+/*=== RESPONSIVO ====*/
+@media(min-width: 1024px) {
+
+body {
+  overflow: auto; 
+}
+}
+
+
+html {
+  /* chrome://flags/#smooth-scrolling   C8A2C8*/
+  scroll-behavior: smooth;
+}
