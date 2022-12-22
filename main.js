@@ -1,5 +1,9 @@
-const link = 
+
 
 function closeMenu() {
-  return  link = 
+  const link =  'href="/sobre.html"'
+  return link
+
 }
+
+closeMenu()
