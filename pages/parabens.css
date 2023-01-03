@@ -1,0 +1,34 @@
+.feliz {
+  font-size: 70px;
+  font-weight: bold;
+  position: relative;
+  top: 300px;
+  margin-left: 10px;
+}
+span {
+  width: 50px;
+  height: 50px;
+  background: url(snow.png);
+  background-size: cover;
+  poiter-events: none;
+  position: absolute;
+  animation: snow 2s linear forwards;
+}
+@keyframes snow {
+  0% {
+    opacity: 1;
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    transform: trasnlate(50%, 1000%);
+    filter: hue-rotate(360deg);
+    opacity: 0;
+  }
+}
+
+.button {
+  position: relative;
+  top: 500px;
+  color: #ffffff;
+  margin-left: 10px;
+}
