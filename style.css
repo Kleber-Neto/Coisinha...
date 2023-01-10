@@ -15,6 +15,8 @@ body {
 
 .logo {
   font-size: 65px;
+  
+  background: #ffffff;
   background-image: linear-gradient(180deg, #3f5efb, #fc466b);
   background-clip: text;
   -webkit-background-clip: text;
@@ -107,7 +109,7 @@ div p {
   z-index: -1;
   background:
     linear-gradient(
-      to right, #3bd9d9, #36a6bf
+      to right, #fc466b, #fc466b
     );
   border-radius: 2%;
   width: 965px;

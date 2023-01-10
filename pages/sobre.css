@@ -85,7 +85,7 @@ div p {
   z-index: -1;
   background:
     linear-gradient(
-      to right, #, #
+      to right, #fc466b, #fc466b
     );
   border-radius: 2%;
   width: 565px;
