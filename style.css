@@ -71,58 +71,31 @@ font-size: 36px;
 
 p {
   margin-left: 10px;
+  top: -2px;
 }
 
 .Declara {
   margin-left: 10px;
+  font-weight: 600;
 } 
 
-.card  {
-  background-color: #ffffff;
-  border-radius: 6px;
-  color: #020e26;
-  padding: 16px;
-  width: 720px;
-  overflow: hidden;
-  margin-left: 10px;
+  .text {
+    color: #ffffff
+  }
+
+.card .text {
+  width: 350px;
+  height: 50px;
   
-  position: fixed;
-  transition: 0.6s;
-  transform: trasnlate(0);
-  font-weight: 400;
+  margin-left: 10px;
 }
 
-.card:hover {
-  color: #ffffff;
+.card {
+  background: linear-gradient(to bottom, #fc466b 50%, #ffffff 50%);
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
 }
-
-div p {
-  margin: 0;
-}
- 
-
-.card::before {
-  content: "";
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  z-index: -1;
-  background:
-    linear-gradient(
-      to right, #fc466b, #fc466b
-    );
-  border-radius: 2%;
-  width: 965px;
-  height: 101px;
-  transition: 0.9s;
-}
-
-.card:hover::before {
-  transform: scale(4.5);
-}
-
-
-
 
 
 
