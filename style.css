@@ -2,8 +2,10 @@ body {
   margin: 0;
   
   background-color: #9E6DC2;
-  font-family: 'DM Sans';
+  font-family: 'Indie Flower', cursiva; 
+   /* font-family: 'DM Sans';  */
   text-decoration:none;
+  
 }
 
 .home {
@@ -51,14 +53,15 @@ a:hover {
   margin-left: 10px;
  
 
-font-family: 'Poppins';
+  font-family: 'Indie Flower', cursiva;
+  color: #ffffff;
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
 
 }
 
-.text {
+.texthome {
   padding-top: 0px;
   margin-left: 10px;
 
@@ -70,31 +73,40 @@ font-size: 36px;
 }
 
 p {
-  margin-left: 10px;
+  margin-left: -2px;
   top: -2px;
 }
 
-.Declara {
-  margin-left: 10px;
+.Declarahome {
+  font-family: 'Indie Flower', cursiva;
+  /* font-family: 'Dancing Script', cursivo; */
+  margin-left: 5px;
   font-weight: 600;
+  margin-top: 50px;
+  font-size: 18px;
 } 
 
   .text {
-    color: #ffffff
+    
   }
 
-.card .text {
+.texthome {
   width: 350px;
-  height: 50px;
+  height: 30px;
+  padding-top: 30px;
+  margin-left: 8px;
+  color: #ffffff;
+
   
-  margin-left: 10px;
 }
 
-.card {
-  background: linear-gradient(to bottom, #fc466b 50%, #ffffff 50%);
+.cardHome {
+  background: linear-gradient(to bottom, #fc466b 39%, #ffffff 30%);
   margin-left: 10px;
   margin-right: 10px;
   border-radius: 10px;
+  width: 665px;
+  height: 255px;
 }
 
 
