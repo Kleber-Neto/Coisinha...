@@ -37,7 +37,6 @@ a {
   font-family: 'Indie Flower', cursiva;
   color: #fc466b;
   font-size: 24px;
-  font-family: bold;
 }
 
 a:hover {
@@ -83,7 +82,7 @@ font-family: 'Indie Flower', cursiva;
   color: #9E6DC2;
 }
 .par {
- margin-top: 40px;
+ margin-top: 20px;
 }
 
 div p {
@@ -115,7 +114,7 @@ margin-top: 40px;
 }
 
 .par2 {
-  margin-top: 80px;
+  margin-top: 70px;
  }
  
 .cardtwu:hover {
@@ -148,7 +147,7 @@ margin-top: 40px;
 }
 
 .par3 {
-  margin-top: 80px;
+  margin-top: 70px;
  }
  
 .cardtre:hover {
@@ -168,11 +167,13 @@ font-size: 36px;
 
 }
 
+/* DIV SOBRE */
+
 .trexo {
   position: absolute;
   background: #ffffff;
   width: 750px;
-  height: 329px;
+  height: 529px;
   margin-left: 5px;
   top: 580px;
   
@@ -192,11 +193,35 @@ font-size: 36px;
   margin-left: 25px;
   padding-bottom: 10px;
   display: inline-block;
-  font-size: 26px;
+  font-size: 28px;
   color: #9E6DC2;
   font-family: 'Indie Flower', cursiva;
   /* font-family: bold; */
 
+}
+
+.info2 {
+  position: absolute;
+  margin-left: 25px;
+  padding-top: 35px;
+  display: inline-block;
+  font-size: 18px;
+  color: gray;
+  font-family: 'Indie Flower', cursiva;
+}
+
+span {
+  color: #fc466b;
+}
+
+.info3 {
+  position: absolute;
+  margin-left: 25px;
+  padding-top: 65px;
+  display: inline-block;
+  font-size: 18px;
+  color: gray;
+  font-family: 'Indie Flower', cursiva;
 }
 
 .perfil .info {
@@ -204,6 +229,18 @@ font-size: 36px;
   text-decoration: none;
 }
 
+.titu {
+  text-align: center;
+  padding-top: 45px;
+  font-size: 26px;
+  color: #9E6DC2;
+}
+
+strong {
+  font-size: 18px;
+  color: gray;
+  padding-left: 10px;
+}
 
 
 /*=== RESPONSIVO =================================*/
