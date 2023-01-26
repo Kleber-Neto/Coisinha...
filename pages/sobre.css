@@ -212,6 +212,13 @@ font-size: 36px;
 
 span {
   color: #fc466b;
+  display: inline-block;
+  position: absolute;
+  margin-left: 5px;
+}
+
+.span {
+  margin-left: 135px;
 }
 
 .info3 {
@@ -234,12 +241,24 @@ span {
   padding-top: 45px;
   font-size: 26px;
   color: #9E6DC2;
+ 
 }
 
 strong {
+  position: absolute;
   font-size: 18px;
   color: gray;
   padding-left: 10px;
+  display: inline-block;
+}
+
+.intes {
+  margin-left: 190px;
+  margin-top: -10px;
+  width: 45px;
+  height: 45px;
+  border-radius: 20px 20px 20px 20px;
+  display: inline-block;
 }
 
 
