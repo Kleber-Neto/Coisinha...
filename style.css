@@ -8,6 +8,10 @@ body {
   
 }
 
+img {
+  image-rendering: pixelated;
+}
+
 .home {
   width: 100%;
   background: #ffffff;

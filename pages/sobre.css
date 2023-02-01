@@ -173,7 +173,7 @@ font-size: 36px;
   position: absolute;
   background: #ffffff;
   width: 750px;
-  height: 529px;
+  height: 929px;
   margin-left: 5px;
   top: 580px;
   
@@ -221,6 +221,23 @@ span {
   margin-left: 135px;
 }
 
+.span1 {
+  margin-left: 140px;
+}
+
+.span2 {
+  margin-left: 203px;
+  font-size: 18px;
+}
+
+em {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: -21px;
+  display: inline-block;
+  font-size: 48px;
+}
+
 .info3 {
   position: absolute;
   margin-left: 25px;
@@ -254,6 +271,15 @@ strong {
 
 .intes {
   margin-left: 190px;
+  margin-top: -10px;
+  width: 45px;
+  height: 45px;
+  border-radius: 20px 20px 20px 20px;
+  display: inline-block;
+}
+
+.intes1 {
+  margin-left: 250px;
   margin-top: -10px;
   width: 45px;
   height: 45px;
