@@ -258,6 +258,12 @@ span {
   font-size: 18px;
 }
 
+.span8 {
+  margin-left: 570px;
+  margin-top: -320px;
+  font-size: 18px;
+}
+
 em {
   position: absolute;
   margin-left: 10px;
@@ -320,6 +326,16 @@ strong {
 .strog3 {
   margin-left: 460px;
   margin-top: -390px;
+  position: absolute;
+  font-size: 18px;
+  color: gray;
+  
+  display: inline-block;
+}
+
+.strog4 {
+  margin-left: 360px;
+  margin-top: -320px;
   position: absolute;
   font-size: 18px;
   color: gray;
@@ -395,6 +411,16 @@ strong {
 .intes7 {
   margin-left: 649px;
   margin-top: -400px;
+  width: 45px;
+  height: 45px;
+  border-radius: 20px 20px 20px 20px;
+  display: inline-block;
+  float: left;
+}
+
+.intes8 {
+  margin-left: 649px;
+  margin-top: -300px;
   width: 45px;
   height: 45px;
   border-radius: 20px 20px 20px 20px;
