@@ -231,12 +231,13 @@ span {
 }
 
 .span3 {
-  margin-left: 115px;
+  margin-left: 434px;
   font-size: 18px;
 }
 
 .span4 {
-  margin-left: 75px;
+  margin-left: 70px;
+  margin-top: -70px;
   font-size: 18px;
 }
 
@@ -271,8 +272,8 @@ span {
 }
 
 .span10 {
-  margin-left: 467px;
-  margin-top: -190px;
+  margin-left: 457px;
+  margin-top: -135px;
   font-size: 18px;
 }
 
@@ -315,9 +316,36 @@ strong {
   display: inline-block;
 }
 
+.especi1 {
+  margin-top: -70px;
+  position: absolute;
+  font-size: 18px;
+  color: gray;
+ 
+  display: inline-block;
+}
+
+.especi {
+  margin-left: 320px;
+  position: absolute;
+  font-size: 18px;
+  color: gray;
+  display: inline-block;
+}
+
 .strog {
   margin-left: 500px;
   margin-top: -530px;
+  position: absolute;
+  font-size: 18px;
+  color: gray;
+  
+  display: inline-block;
+}
+
+.strog1 {
+  margin-left: 440px;
+  margin-top: -0px;
   position: absolute;
   font-size: 18px;
   color: gray;
@@ -366,8 +394,8 @@ strong {
 }
 
 .strog6 {
-  margin-left: 360px;
-  margin-top: -190px;
+  margin-left: 355px;
+  margin-top: -135px;
   position: absolute;
   font-size: 18px;
   color: gray;
@@ -403,7 +431,7 @@ strong {
 }
 
 .intes3 {
-  margin-left: 329px;
+  margin-left: 649px;
   margin-top: -10px;
   width: 45px;
   height: 45px;
@@ -412,12 +440,13 @@ strong {
 }
 
 .intes4 {
-  margin-left: 219px;
-  margin-top: -10px;
+  margin-left: 210px;
+  margin-top: -85px;
   width: 45px;
   height: 45px;
   border-radius: 20px 20px 20px 20px;
   display: inline-block;
+  float: left;
 }
 
 .intes5 {
@@ -472,7 +501,7 @@ strong {
 
 .intes10 {
   margin-left: 651px;
-  margin-top: -200px;
+  margin-top: -150px;
   width: 45px;
   height: 45px;
   border-radius: 20px 20px 20px 20px;
