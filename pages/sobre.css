@@ -173,11 +173,48 @@ font-size: 36px;
   position: absolute;
   background: #ffffff;
   width: 750px;
-  height: 929px;
+  height: 1790px;
   margin-left: 5px;
   top: 580px;
   
   border-radius: 10px;
+}
+
+.def {
+  position: absolute;
+  background: #fc466b;
+  color: #ffffff;
+  width: 440px;
+  height: 329px;
+  margin-left: 160px;
+  top: 880px;
+  
+  border-radius: 10px;
+}
+
+.quali {
+  position: absolute;
+  background: #9E6DC2;
+  color: #ffffff;
+  width: 440px;
+  height: 329px;
+  margin-left: 160px;
+  top: 1280px;
+  
+  border-radius: 10px;
+}
+
+.defeito{
+  text-align: center;
+}
+
+.qualidades {
+  text-align: center;
+}
+
+.pdef {
+  font-size: 28px;
+  text-align: center;
 }
 
 .perfil {
@@ -243,31 +280,31 @@ span {
 
 .span5 {
   margin-left: 575px;
-  margin-top: -530px;
+  margin-top: -455px;
   font-size: 18px;
 }
 
 .span6 {
   margin-left: 540px;
-  margin-top: -470px;
+  margin-top: -390px;
   font-size: 18px;
 }
 
 .span7 {
   margin-left: 570px;
-  margin-top: -390px;
+  margin-top: -320px;
   font-size: 18px;
 }
 
 .span8 {
   margin-left: 572px;
-  margin-top: -330px;
+  margin-top: -250px;
   font-size: 18px;
 }
 
 .span9 {
   margin-left: 512px;
-  margin-top: -260px;
+  margin-top: -190px;
   font-size: 18px;
 }
 
@@ -335,7 +372,7 @@ strong {
 
 .strog {
   margin-left: 500px;
-  margin-top: -530px;
+  margin-top: -455px;
   position: absolute;
   font-size: 18px;
   color: gray;
@@ -355,7 +392,7 @@ strong {
 
 .strog2 {
   margin-left: 490px;
-  margin-top: -470px;
+  margin-top: -390px;
   position: absolute;
   font-size: 18px;
   color: gray;
@@ -365,7 +402,7 @@ strong {
 
 .strog3 {
   margin-left: 460px;
-  margin-top: -390px;
+  margin-top: -320px;
   position: absolute;
   font-size: 18px;
   color: gray;
@@ -375,7 +412,7 @@ strong {
 
 .strog4 {
   margin-left: 330px;
-  margin-top: -330px;
+  margin-top: -250px;
   position: absolute;
   font-size: 18px;
   color: gray;
@@ -385,7 +422,7 @@ strong {
 
 .strog5 {
   margin-left: 440px;
-  margin-top: -260px;
+  margin-top: -190px;
   position: absolute;
   font-size: 18px;
   color: gray;
@@ -451,7 +488,7 @@ strong {
 
 .intes5 {
   margin-left: 649px;
-  margin-top: -540px;
+  margin-top: -468px;
   width: 45px;
   height: 45px;
   border-radius: 20px 20px 20px 20px;
@@ -461,7 +498,7 @@ strong {
 
 .intes6 {
   margin-left: 649px;
-  margin-top: -480px;
+  margin-top: -400px;
   width: 45px;
   height: 45px;
   border-radius: 20px 20px 20px 20px;
@@ -471,7 +508,7 @@ strong {
 
 .intes7 {
   margin-left: 649px;
-  margin-top: -400px;
+  margin-top: -340px;
   width: 45px;
   height: 45px;
   border-radius: 20px 20px 20px 20px;
@@ -481,7 +518,7 @@ strong {
 
 .intes8 {
   margin-left: 651px;
-  margin-top: -340px;
+  margin-top: -270px;
   width: 45px;
   height: 45px;
   border-radius: 20px 20px 20px 20px;
@@ -491,7 +528,7 @@ strong {
 
 .intes9 {
   margin-left: 651px;
-  margin-top: -270px;
+  margin-top: -210px;
   width: 45px;
   height: 45px;
   border-radius: 20px 20px 20px 20px;

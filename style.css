@@ -105,10 +105,10 @@ p {
 
 .cardHome {
   background: linear-gradient(to bottom, #fc466b 39%, #ffffff 30%);
-  margin-left: 10px;
+  margin-left: 5px;
   margin-right: 10px;
   border-radius: 10px;
-  width: 665px;
+  width: 695px;
   height: 255px;
 }
 
@@ -117,6 +117,8 @@ p {
 
 footer {
   margin-left: 10px;
+  margin-left: 10px;
+  color: #ffffff;
 }
 
 
