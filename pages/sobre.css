@@ -5,6 +5,10 @@ body {
   text-decoration:none;
 }
 
+html {
+  font-size: 16px;
+}
+
 .navbar {
   width: 100%;
   background: #ffffff;
@@ -56,24 +60,34 @@ p {
   color: #ffffff;
   width: 355px;
 height: 0px;
-margin-left: 40px;
+padding-left: 15rem;
 margin-top: 40px;
+word-wrap: break-word;
 }
 
-.card {
-margin-left: 10px;
+.card .par .par2 .par3 {
+ 
+    
+    word-wrap: break-word;
+
+}
+.card  .cardtwu .cardtre {
+  width: 100%;
+  
+ 
 }
 
 .card {
 background: linear-gradient(to bottom, #fc466b 39%, #ffffff 30%);
-margin-left: 0px;
-margin-right: 10px;
+
+
 border-radius: 10px;
 position: absolute;
 top: 300px;
 overflow: hidden;
 padding-bottom: 50px;
-width: 252px;
+/*width: 252px;*/
+width: 100%;
 height: 190px;
 font-family: 'Indie Flower', cursiva;
 }
@@ -81,8 +95,9 @@ font-family: 'Indie Flower', cursiva;
 .card:hover {
   color: #9E6DC2;
 }
-.par {
+.par  {
  margin-top: 20px;
+ padding-left: 10px;
 }
 
 div p {
@@ -94,14 +109,15 @@ div p {
 
 .cardtwu  {
   background: linear-gradient(to bottom, #fc466b 39%, #ffffff 30%);
-margin-left: 255px;
-margin-right: 10px;
+
+
 border-radius: 10px;
 position: absolute;
-top: 300px;
+top: 560px;
 overflow: hidden;
 padding-bottom: 50px;
-width: 252px;
+/*width: 252px;*/
+width: 100%;
 height: 190px;
 }
 
@@ -109,12 +125,13 @@ height: 190px;
   color: #ffffff;
   width: 355px;
 height: 0px;
-margin-left: 40px;
+padding-left: 17rem;
 margin-top: 40px;
 }
 
 .par2 {
   margin-top: 70px;
+  padding-left: 10px;
  }
  
 .cardtwu:hover {
@@ -127,14 +144,15 @@ div p {
  
 .cardtre  {
   background: linear-gradient(to bottom, #fc466b 39%, #ffffff 30%);
-margin-left: 510px;
-margin-right: 10px;
+
+
 border-radius: 10px;
 position: absolute;
-top: 300px;
+top: 825px;
 overflow: hidden;
 padding-bottom: 50px;
-width: 250px;
+/* width: 250px; */
+width: 100%;
 height: 190px;
 }
 
@@ -142,12 +160,13 @@ height: 190px;
   color: #ffffff;
   width: 355px;
 height: 0px;
-margin-left: 40px;
+padding-left: 17rem;
 margin-top: 40px;
 }
 
 .par3 {
-  margin-top: 70px;
+  margin-top: 4.3rem;
+  padding-left: 0.6rem;
  }
  
 .cardtre:hover {
@@ -158,8 +177,8 @@ margin-top: 40px;
 
 
 .text {
-  padding-top: -48px;
-  margin-left: 2 0px;
+  padding-top: -3rem;
+  /* margin-left: 2 0px; */
 
 font-style: normal;
 font-weight: 700;
@@ -172,33 +191,34 @@ font-size: 36px;
 .trexo {
   position: absolute;
   background: #ffffff;
-  width: 750px;
-  height: 1790px;
-  margin-left: 5px;
-  top: 580px;
+   width: 43.6rem; 
   
-  border-radius: 10px;
+  height: 106.2rem;
+  margin-left: 0.3rem;
+  top: 69.3rem;
+  
+  border-radius: 0.6rem;
 }
 
 .def {
   position: absolute;
   background: #fc466b;
   color: #ffffff;
-  width: 440px;
-  height: 329px;
-  margin-left: 160px;
+  width: 27.5rem;
+  height: 20.5rem;
+  margin-left: 10rem;
   top: 880px;
   
-  border-radius: 10px;
+  border-radius: 0.6rem;
 }
 
 .quali {
   position: absolute;
   background: #9E6DC2;
   color: #ffffff;
-  width: 440px;
-  height: 329px;
-  margin-left: 160px;
+  width: 27.5rem;
+  height: 20.5rem;
+  margin-left: 10rem;
   top: 1280px;
   
   border-radius: 10px;
@@ -242,7 +262,7 @@ font-size: 36px;
   margin-left: 25px;
   padding-top: 35px;
   display: inline-block;
-  font-size: 18px;
+  font-size: 1.1rem;
   color: gray;
   font-family: 'Indie Flower', cursiva;
 }
@@ -264,54 +284,54 @@ span {
 
 .span2 {
   margin-left: 203px;
-  font-size: 18px;
+  font-size: 1.1rem;
 }
 
 .span3 {
   margin-left: 434px;
-  font-size: 18px;
+  font-size: 1.1rem;
 }
 
 .span4 {
   margin-left: 70px;
   margin-top: -70px;
-  font-size: 18px;
+  font-size: 1.1rem;
 }
 
 .span5 {
   margin-left: 575px;
   margin-top: -455px;
-  font-size: 18px;
+  font-size: 1.1rem;
 }
 
 .span6 {
   margin-left: 540px;
   margin-top: -390px;
-  font-size: 18px;
+  font-size: 1.1rem;
 }
 
 .span7 {
   margin-left: 570px;
   margin-top: -320px;
-  font-size: 18px;
+  font-size: 1.1rem;
 }
 
 .span8 {
   margin-left: 572px;
   margin-top: -250px;
-  font-size: 18px;
+  font-size: 1.1rem;
 }
 
 .span9 {
   margin-left: 512px;
   margin-top: -190px;
-  font-size: 18px;
+  font-size: 1.1rem;
 }
 
 .span10 {
   margin-left: 457px;
   margin-top: -135px;
-  font-size: 18px;
+  font-size: 1.1rem;
 }
 
 em {
@@ -327,7 +347,7 @@ em {
   margin-left: 25px;
   padding-top: 65px;
   display: inline-block;
-  font-size: 18px;
+  font-size: 1.1rem;
   color: gray;
   font-family: 'Indie Flower', cursiva;
 }
@@ -347,7 +367,7 @@ em {
 
 strong {
   position: absolute;
-  font-size: 18px;
+  font-size: 1.1rem;
   color: gray;
   padding-left: 10px;
   display: inline-block;
@@ -356,7 +376,7 @@ strong {
 .especi1 {
   margin-top: -70px;
   position: absolute;
-  font-size: 18px;
+  font-size: 1.1rem;
   color: gray;
  
   display: inline-block;
@@ -365,7 +385,7 @@ strong {
 .especi {
   margin-left: 320px;
   position: absolute;
-  font-size: 18px;
+  font-size: 1.1rem;
   color: gray;
   display: inline-block;
 }
@@ -374,7 +394,7 @@ strong {
   margin-left: 500px;
   margin-top: -455px;
   position: absolute;
-  font-size: 18px;
+  font-size: 1.1rem;
   color: gray;
   
   display: inline-block;
@@ -384,7 +404,7 @@ strong {
   margin-left: 440px;
   margin-top: -0px;
   position: absolute;
-  font-size: 18px;
+  font-size: 1.1rem;
   color: gray;
   
   display: inline-block;
@@ -394,7 +414,7 @@ strong {
   margin-left: 490px;
   margin-top: -390px;
   position: absolute;
-  font-size: 18px;
+  font-size: 1.1rem;
   color: gray;
   
   display: inline-block;
@@ -404,7 +424,7 @@ strong {
   margin-left: 460px;
   margin-top: -320px;
   position: absolute;
-  font-size: 18px;
+  font-size: 1.1rem;
   color: gray;
   
   display: inline-block;
@@ -414,7 +434,7 @@ strong {
   margin-left: 330px;
   margin-top: -250px;
   position: absolute;
-  font-size: 18px;
+  font-size: 1.1rem;
   color: gray;
   
   display: inline-block;
@@ -424,7 +444,7 @@ strong {
   margin-left: 440px;
   margin-top: -190px;
   position: absolute;
-  font-size: 18px;
+  font-size: 1.1rem;
   color: gray;
   
   display: inline-block;
@@ -434,7 +454,7 @@ strong {
   margin-left: 355px;
   margin-top: -135px;
   position: absolute;
-  font-size: 18px;
+  font-size: 1.1rem;
   color: gray;
   
   display: inline-block;
@@ -443,8 +463,8 @@ strong {
 .intes {
   margin-left: 190px;
   margin-top: -10px;
-  width: 45px;
-  height: 45px;
+  width: 2.8rem;
+  height: 2.8rem;
   border-radius: 20px 20px 20px 20px;
   display: inline-block;
 }
@@ -452,8 +472,17 @@ strong {
 .intes1 {
   margin-left: 250px;
   margin-top: -10px;
-  width: 45px;
-  height: 45px;
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 20px 20px 20px 20px;
+  display: inline-block;
+}
+
+.intesB {
+  margin-left: 293px;
+  margin-top: -10px;
+  width: 2.8rem;
+  height: 2.8rem;
   border-radius: 20px 20px 20px 20px;
   display: inline-block;
 }
@@ -461,8 +490,8 @@ strong {
 .intes2 {
   margin-left: 290px;
   margin-top: -10px;
-  width: 45px;
-  height: 45px;
+  width: 2.8rem;
+  height: 2.8rem;
   border-radius: 20px 20px 20px 20px;
   display: inline-block;
 }
@@ -470,8 +499,8 @@ strong {
 .intes3 {
   margin-left: 649px;
   margin-top: -10px;
-  width: 45px;
-  height: 45px;
+  width: 2.8rem;
+  height: 2.8rem;
   border-radius: 20px 20px 20px 20px;
   display: inline-block;
 }
@@ -479,8 +508,8 @@ strong {
 .intes4 {
   margin-left: 210px;
   margin-top: -85px;
-  width: 45px;
-  height: 45px;
+  width: 2.8rem;
+  height: 2.8rem;
   border-radius: 20px 20px 20px 20px;
   display: inline-block;
   float: left;
@@ -489,8 +518,8 @@ strong {
 .intes5 {
   margin-left: 649px;
   margin-top: -468px;
-  width: 45px;
-  height: 45px;
+  width: 2.8rem;
+  height: 2.8rem;
   border-radius: 20px 20px 20px 20px;
   display: inline-block;
   float: left;
@@ -499,8 +528,8 @@ strong {
 .intes6 {
   margin-left: 649px;
   margin-top: -400px;
-  width: 45px;
-  height: 45px;
+  width: 2.8rem;
+  height: 2.8rem;
   border-radius: 20px 20px 20px 20px;
   display: inline-block;
   float: left;
@@ -509,8 +538,8 @@ strong {
 .intes7 {
   margin-left: 649px;
   margin-top: -340px;
-  width: 45px;
-  height: 45px;
+  width: 2.8rem;
+  height: 2.8rem;
   border-radius: 20px 20px 20px 20px;
   display: inline-block;
   float: left;
@@ -519,28 +548,28 @@ strong {
 .intes8 {
   margin-left: 651px;
   margin-top: -270px;
-  width: 45px;
-  height: 45px;
+  width: 2.8rem;
+  height: 2.8rem;
   border-radius: 20px 20px 20px 20px;
   display: inline-block;
   float: left;
 }
 
 .intes9 {
-  margin-left: 651px;
-  margin-top: -210px;
-  width: 45px;
-  height: 45px;
+  margin-left: 40.6rem;
+  margin-top: -13.1rem;
+  width: 2.8rem;
+  height: 2.8rem;
   border-radius: 20px 20px 20px 20px;
   display: inline-block;
   float: left;
 }
 
 .intes10 {
-  margin-left: 651px;
-  margin-top: -150px;
-  width: 45px;
-  height: 45px;
+  margin-left: 40.6rem;
+  margin-top: -9.3rem;
+  width: 2.8rem;
+  height: 2.8rem;
   border-radius: 20px 20px 20px 20px;
   display: inline-block;
   float: left;
@@ -548,6 +577,12 @@ strong {
 
 
 /*=== RESPONSIVO =================================*/
+
+@media screen and (max-width: 768px) {
+  .trexo {
+    min-width: 300px;
+  }
+
 @media only screen and (max-device-width: 900px) {
   body {width:100%;}
   }
@@ -562,3 +597,7 @@ html {
   scroll-behavior: smooth;
 }
   
+
+
+
+
