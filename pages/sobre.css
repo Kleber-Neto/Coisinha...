@@ -58,14 +58,18 @@ p {
  
 .text {
   color: #ffffff;
-  width: 355px;
-height: 0px;
+  width: 21.1rem;
+height: 0rem;
 padding-left: 15rem;
-margin-top: 40px;
+margin-top: 2.5rem;
 word-wrap: break-word;
+
+position: absolute;
+left: 50%;
+  transform: translateX(-50%);
 }
 
-.card .par .par2 .par3 {
+.card  .par2 .par3 {
  
     
     word-wrap: break-word;
@@ -78,7 +82,7 @@ word-wrap: break-word;
 }
 
 .card {
-background: linear-gradient(to bottom, #fc466b 39%, #ffffff 30%);
+  background: linear-gradient(to bottom, #fc466b 39%, #ffffff 30%);
 
 
 border-radius: 10px;
@@ -96,8 +100,9 @@ font-family: 'Indie Flower', cursiva;
   color: #9E6DC2;
 }
 .par  {
- margin-top: 20px;
- padding-left: 10px;
+  position: relative;
+ margin-top: 6.5rem;
+ padding-left: 0.6rem;
 }
 
 div p {
@@ -127,10 +132,15 @@ height: 190px;
 height: 0px;
 padding-left: 17rem;
 margin-top: 40px;
+position: absolute;
+left: 50%;
+  transform: translateX(-50%);
 }
 
 .par2 {
-  margin-top: 70px;
+  position: relative;
+ margin-top: 6.5rem;
+  /* margin-top: 70px; */
   padding-left: 10px;
  }
  
@@ -162,10 +172,15 @@ height: 190px;
 height: 0px;
 padding-left: 17rem;
 margin-top: 40px;
+position: absolute;
+left: 50%;
+  transform: translateX(-50%);
 }
 
 .par3 {
-  margin-top: 4.3rem;
+  position: relative;
+ margin-top: 6.5rem;
+
   padding-left: 0.6rem;
  }
  
@@ -337,7 +352,7 @@ span {
 em {
   position: absolute;
   margin-left: 10px;
-  margin-top: -21px;
+  margin-top: -13px;
   display: inline-block;
   font-size: 48px;
 }
