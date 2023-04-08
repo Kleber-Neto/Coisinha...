@@ -66,7 +66,7 @@ p {
   
   height: 106.2rem;
   margin-left: 0.3rem;
-  top: 26.3rem;
+  top: 20.3rem;
   
   font-family: 'Indie Flower', cursiva;
   border-radius: 0.6rem;
@@ -78,16 +78,23 @@ p {
   color: #ffffff;
   width: 21.1rem;
 height: 0rem;
-padding-left: 15rem;
-margin-top: 1.5rem;
-word-wrap: break-word;
-font-size: 1.5rem;
+padding-left: 5rem;
+margin-top: 2.4rem;
+
+
+font-size: 2.4rem;
 
 position: absolute;
 left: 50%;
   transform: translateX(-50%);
 }
 
+.mainSentence {
+  color: #9E6DC2;
+  position: relative;
+ margin-top: 8.9rem;
+ padding-left: 0.5rem;
+}
 
 
 
