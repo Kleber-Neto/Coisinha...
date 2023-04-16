@@ -206,13 +206,15 @@ font-size: 36px;
 .trexo {
   position: absolute;
   background: #ffffff;
-   width: 43.6rem; 
+   /* width: 43.6rem;  */
   
   height: 106.2rem;
-  margin-left: 0.3rem;
+  
   top: 69.3rem;
   
   border-radius: 0.6rem;
+
+  width: 100%;
 }
 
 .def {
