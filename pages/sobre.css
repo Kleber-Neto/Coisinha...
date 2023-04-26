@@ -210,10 +210,19 @@ font-size: 36px;
   
   height: 106.2rem;
   
-  top: 69.3rem;
+  top: 79.3rem;
   
   border-radius: 0.6rem;
 
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.list{
   width: 100%;
 }
 
@@ -224,7 +233,7 @@ font-size: 36px;
   width: 27.5rem;
   height: 20.5rem;
   margin-left: 10rem;
-  top: 880px;
+  top: 75rem;
   
   border-radius: 0.6rem;
 }
@@ -236,7 +245,7 @@ font-size: 36px;
   width: 27.5rem;
   height: 20.5rem;
   margin-left: 10rem;
-  top: 1280px;
+  top: 100rem;
   
   border-radius: 10px;
 }
@@ -305,49 +314,49 @@ span {
 }
 
 .span3 {
-  margin-left: 434px;
+  margin-left: 7.3rem;
   font-size: 1.1rem;
 }
 
 .span4 {
-  margin-left: 70px;
-  margin-top: -70px;
+  margin-left: 7.3rem;
+  margin-top: 20.9rem;
   font-size: 1.1rem;
 }
 
 .span5 {
-  margin-left: 575px;
-  margin-top: -455px;
+  margin-left: 4.6rem;
+  margin-top: -1.2rem;
   font-size: 1.1rem;
 }
 
 .span6 {
-  margin-left: 540px;
-  margin-top: -390px;
+  margin-left: -7.5rem;
+  margin-top: 2.1rem;
   font-size: 1.1rem;
 }
 
 .span7 {
-  margin-left: 570px;
-  margin-top: -320px;
+  margin-left: -6rem;
+  margin-top: 7.2rem;
   font-size: 1.1rem;
 }
 
 .span8 {
-  margin-left: 572px;
-  margin-top: -250px;
+  margin-left: 1.4rem;
+  margin-top: 11rem;
   font-size: 1.1rem;
 }
 
 .span9 {
-  margin-left: 512px;
-  margin-top: -190px;
+  margin-left: -8.3rem;
+  margin-top: 15.1rem;
   font-size: 1.1rem;
 }
 
 .span10 {
-  margin-left: 457px;
-  margin-top: -135px;
+  margin-left: -6.6rem;
+  margin-top: 18rem;
   font-size: 1.1rem;
 }
 
@@ -391,7 +400,7 @@ strong {
 }
 
 .especi1 {
-  margin-top: -70px;
+  margin-top: -4.3rem;
   position: absolute;
   font-size: 1.1rem;
   color: gray;
@@ -400,7 +409,8 @@ strong {
 }
 
 .especi {
-  margin-left: 320px;
+  margin-left: 0.2rem;
+  margin-top: 0.1rem;
   position: absolute;
   font-size: 1.1rem;
   color: gray;
@@ -408,8 +418,8 @@ strong {
 }
 
 .strog {
-  margin-left: 500px;
-  margin-top: -455px;
+  
+  margin-top: -1.2rem;
   position: absolute;
   font-size: 1.1rem;
   color: gray;
@@ -428,8 +438,8 @@ strong {
 }
 
 .strog2 {
-  margin-left: 490px;
-  margin-top: -390px;
+  margin-left: -11rem;
+  margin-top: 2.2rem;
   position: absolute;
   font-size: 1.1rem;
   color: gray;
@@ -438,8 +448,8 @@ strong {
 }
 
 .strog3 {
-  margin-left: 460px;
-  margin-top: -320px;
+  margin-left: -13.3rem;
+  margin-top: 7.2rem;
   position: absolute;
   font-size: 1.1rem;
   color: gray;
@@ -448,8 +458,8 @@ strong {
 }
 
 .strog4 {
-  margin-left: 330px;
-  margin-top: -250px;
+  margin-left: -13.3rem;
+  margin-top: 11rem;
   position: absolute;
   font-size: 1.1rem;
   color: gray;
@@ -458,8 +468,8 @@ strong {
 }
 
 .strog5 {
-  margin-left: 440px;
-  margin-top: -190px;
+  margin-left: -13.3rem;
+  margin-top: 15rem;
   position: absolute;
   font-size: 1.1rem;
   color: gray;
@@ -468,8 +478,8 @@ strong {
 }
 
 .strog6 {
-  margin-left: 355px;
-  margin-top: -135px;
+  margin-left: -13.3rem;
+  margin-top: 18rem;
   position: absolute;
   font-size: 1.1rem;
   color: gray;
@@ -514,8 +524,8 @@ strong {
 }
 
 .intes3 {
-  margin-left: 649px;
-  margin-top: -10px;
+  margin-left: 20.5rem;
+  margin-top: -0.3rem;
   width: 2.8rem;
   height: 2.8rem;
   border-radius: 20px 20px 20px 20px;
@@ -533,8 +543,8 @@ strong {
 }
 
 .intes5 {
-  margin-left: 649px;
-  margin-top: -468px;
+  margin-left: 8.5rem;
+  margin-top: -1.6rem;
   width: 2.8rem;
   height: 2.8rem;
   border-radius: 20px 20px 20px 20px;
@@ -543,8 +553,8 @@ strong {
 }
 
 .intes6 {
-  margin-left: 649px;
-  margin-top: -400px;
+  margin-left: -0.5rem;
+  margin-top: 0.99rem;
   width: 2.8rem;
   height: 2.8rem;
   border-radius: 20px 20px 20px 20px;
@@ -599,6 +609,7 @@ strong {
   .trexo {
     min-width: 300px;
   }
+}
 
 @media only screen and (max-device-width: 900px) {
   body {width:100%;}

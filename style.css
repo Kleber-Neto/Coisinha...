@@ -127,16 +127,16 @@ p {
   width: 695px;
   width: 100%;
   height: 23.5rem; */
-  background: linear-gradient(to bottom, #fc466b 30%, #ffffff 29%);
+  background: linear-gradient(to bottom, #fc466b 25%, #ffffff 25%);
   position: absolute;
   
   color: #000000;
   font-size: 2rem;
    /* width: 43.6rem; */
   
-  height: 30.9rem;
+  height: 35.9rem;
   /* margin-left: 0.3rem; */
-  top: 28.3rem;
+  top: 33.3rem;
   
   font-family: 'Indie Flower', cursiva;
   border-radius: 0.6rem;
@@ -151,7 +151,7 @@ footer {
   margin-left: 10px;
   margin-left: 10px;
   color: #ffffff;
-  margin-top: 57.5rem;
+  margin-top: 65.5rem;
   position: absolute;
 }
 
