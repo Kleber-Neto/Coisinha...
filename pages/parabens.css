@@ -57,14 +57,14 @@ p {
 
 
 .carta {
-  background: linear-gradient(to bottom, #fc466b 8%, #ffffff 2%);
+  background: linear-gradient(to bottom, #fc466b 4%, #ffffff 2%);
   position: absolute;
   
   color: #ffffff;
   font-size: 2rem;
    width: 43.6rem;
   
-  height: 106.2rem;
+  height: 199.9rem;
   /* margin-left: 0.3rem; */
   top: 18.3rem;
   

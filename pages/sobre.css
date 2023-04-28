@@ -87,7 +87,7 @@ left: 50%;
 
 border-radius: 10px;
 position: absolute;
-top: 300px;
+top: 25.7rem;
 overflow: hidden;
 padding-bottom: 50px;
 /*width: 252px;*/
@@ -118,7 +118,7 @@ div p {
 
 border-radius: 10px;
 position: absolute;
-top: 560px;
+top: 43rem;
 overflow: hidden;
 padding-bottom: 50px;
 /*width: 252px;*/
@@ -158,7 +158,7 @@ div p {
 
 border-radius: 10px;
 position: absolute;
-top: 825px;
+top: 60.2rem;
 overflow: hidden;
 padding-bottom: 50px;
 /* width: 250px; */
@@ -208,7 +208,7 @@ font-size: 36px;
   background: #ffffff;
    /* width: 43.6rem;  */
   
-  height: 106.2rem;
+  height: 156.2rem;
   
   top: 79.3rem;
   
@@ -227,7 +227,7 @@ img {
 }
 
 .def {
-  position: absolute;
+  /* position: absolute;
   background: #fc466b;
   color: #ffffff;
   width: 27.5rem;
@@ -235,11 +235,22 @@ img {
   margin-left: 10rem;
   top: 75rem;
   
+  border-radius: 0.6rem; */
+  position: absolute;
+  background: #fc466b;
+  color: #ffffff;
+  width: 27.5rem;
+  height: 29.9rem;
+  margin-left: 0.5rem;
+  
+  top: 75rem;
+
+  width: 98%;  
   border-radius: 0.6rem;
 }
 
 .quali {
-  position: absolute;
+  /* position: absolute;
   background: #9E6DC2;
   color: #ffffff;
   width: 27.5rem;
@@ -247,7 +258,18 @@ img {
   margin-left: 10rem;
   top: 100rem;
   
-  border-radius: 10px;
+  border-radius: 10px; */
+  position: absolute;
+  background: #9E6DC2;
+  color: #ffffff;
+  width: 27.5rem;
+  height: 32.3rem;
+  margin-left: 0.5rem;
+  
+  top: 110rem;
+
+  width: 98%;  
+  border-radius: 0.6rem;
 }
 
 .defeito{
@@ -349,13 +371,13 @@ span {
 }
 
 .span9 {
-  margin-left: -11.3rem;
+  margin-left: -17.3rem;
   margin-top: 15.1rem;
   font-size: 1.1rem;
 }
 
 .span10 {
-  margin-left: -9.6rem;
+  margin-left: -15.6rem;
   margin-top: 18rem;
   font-size: 1.1rem;
 }
@@ -468,7 +490,7 @@ strong {
 }
 
 .strog5 {
-  margin-left: -16.0rem;
+  margin-left: -22.0rem;
   margin-top: 15rem;
   position: absolute;
   font-size: 1.1rem;
@@ -478,7 +500,7 @@ strong {
 }
 
 .strog6 {
-  margin-left: -16.0rem;
+  margin-left: -22.0rem;
   margin-top: 18rem;
   position: absolute;
   font-size: 1.1rem;
@@ -583,8 +605,8 @@ strong {
 }
 
 .intes9 {
-  margin-left: 4.6rem;
-  margin-top: 13.1rem;
+  margin-left: -8.2rem;
+  margin-top: 13.9rem;
   width: 2.8rem;
   height: 2.8rem;
   border-radius: 20px 20px 20px 20px;
@@ -593,8 +615,8 @@ strong {
 }
 
 .intes10 {
-  margin-left: 40.6rem;
-  margin-top: -9.3rem;
+  margin-left: -2.1rem;
+  margin-top: 17.3rem;
   width: 2.8rem;
   height: 2.8rem;
   border-radius: 20px 20px 20px 20px;
