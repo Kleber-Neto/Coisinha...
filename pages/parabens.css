@@ -64,7 +64,7 @@ p {
   font-size: 2rem;
    width: 43.6rem;
   
-  height: 199.9rem;
+  height: 209.9rem;
   /* margin-left: 0.3rem; */
   top: 18.3rem;
   
@@ -115,14 +115,14 @@ body {
 
 .login-box {
   position: absolute;
-  top: 430px;
+  top: 27.8rem;
   left: 50%;
-  width: 400px;
-  padding: 40px;
+  width: 25rem;
+  padding: 2.5rem;
   transform: translate(-50%, -50%);
   background: #242026;
   box-shadow: 0 15px 25px rgba(143, 124, 236, 0.7);
-  border-radius: 10px;
+  border-radius: 0.6rem;
 }
 
 .login-box h2 {
