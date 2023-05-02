@@ -60,7 +60,7 @@ p {
   color: #ffffff;
   width: 21.1rem;
 height: 0rem;
-padding-left: 15rem;
+padding-left: 2rem;
 margin-top: 2.5rem;
 word-wrap: break-word;
 
@@ -103,6 +103,7 @@ font-family: 'Indie Flower', cursiva;
   position: relative;
  margin-top: 6.5rem;
  padding-left: 0.6rem;
+ font-size: 1.2rem;
 }
 
 div p {
@@ -130,7 +131,7 @@ height: 190px;
   color: #ffffff;
   width: 355px;
 height: 0px;
-padding-left: 17rem;
+padding-left: 9rem;
 margin-top: 40px;
 position: absolute;
 left: 50%;
@@ -142,6 +143,7 @@ left: 50%;
  margin-top: 6.5rem;
   /* margin-top: 70px; */
   padding-left: 10px;
+  font-size: 1.2rem;
  }
  
 .cardtwu:hover {
@@ -170,7 +172,7 @@ height: 190px;
   color: #ffffff;
   width: 355px;
 height: 0px;
-padding-left: 17rem;
+padding-left: 9rem;
 margin-top: 40px;
 position: absolute;
 left: 50%;
@@ -182,6 +184,7 @@ left: 50%;
  margin-top: 6.5rem;
 
   padding-left: 0.6rem;
+  font-size: 1.2rem;
  }
  
 .cardtre:hover {
@@ -240,10 +243,10 @@ img {
   background: #fc466b;
   color: #ffffff;
   width: 27.5rem;
-  height: 29.9rem;
+  height: 27rem;
   margin-left: 0.5rem;
   
-  top: 75rem;
+  top: 76.2rem;
 
   width: 98%;  
   border-radius: 0.6rem;
@@ -263,7 +266,7 @@ img {
   background: #9E6DC2;
   color: #ffffff;
   width: 27.5rem;
-  height: 32.3rem;
+  height: 28rem;
   margin-left: 0.5rem;
   
   top: 110rem;

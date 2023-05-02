@@ -73,3 +73,32 @@ body {
   visibility: visible;
   transform: translateY(0);
 }
+
+coracao
+
+.coracao {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+
+.coracao::before, .coracao::after {
+  content: "";
+  width: 50px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+}
+
+.coracao::before {
+  left: 0;
+  background-color: orange;
+  border-radius: 50px 0 0 50px;
+}
+
+.coracao::after {
+  right: 0;
+  background-color: purple;
+  border-radius: 0 50px 50px 0;
+}

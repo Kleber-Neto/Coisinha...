@@ -99,8 +99,8 @@ p {
   font-family: 'Indie Flower', cursiva;
   /* font-family: 'Dancing Script', cursivo; */
   margin-left: 5px;
-  font-weight: 600; 
-  margin-top: 9.5rem;
+  font-weight: 600px; 
+  margin-top: 11.5rem;
   font-size: 1.5rem;
 } 
 
@@ -147,7 +147,7 @@ p {
   
   height: 35.9rem;
   /* margin-left: 0.3rem; */
-  top: 31.3rem;
+  top: 33.3rem;
   
   font-family: 'Indie Flower', cursiva;
   border-radius: 0.6rem;
@@ -162,7 +162,7 @@ footer {
   margin-left: 10px;
   margin-left: 10px;
   color: #ffffff;
-  margin-top: 65.5rem;
+  margin-top: 71.5rem;
   position: absolute;
 }
 
