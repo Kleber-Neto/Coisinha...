@@ -145,7 +145,8 @@ p {
   font-size: 2rem;
    /* width: 43.6rem; */
   
-  height: 41.9rem;
+  /* height: 41.9rem; */
+  height: auto;
   /* margin-left: 0.3rem; */
   top: 33.3rem;
   

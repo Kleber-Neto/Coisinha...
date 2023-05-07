@@ -67,7 +67,8 @@ p {
   font-size: 2rem;
    width: 43.6rem;
   
-  height: 243.9rem;
+  /* height: 243.9rem; */
+  height: auto;
   /* margin-left: 0.3rem; */
   top: 18.3rem;
   

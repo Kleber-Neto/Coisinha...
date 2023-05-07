@@ -211,7 +211,8 @@ font-size: 36px;
   background: #ffffff;
    /* width: 43.6rem;  */
   
-  height: 156.2rem;
+  height: 128.2rem;
+  /* height: auto; */
   
   top: 79.3rem;
   
@@ -243,8 +244,9 @@ img {
   background: #fc466b;
   color: #ffffff;
   width: 27.5rem;
-  height: 27rem;
-  margin-left: 0.5rem;
+  /* height: 27rem; */
+  height: auto;
+  margin-left: 0.25rem;
   
   top: 76.2rem;
 
@@ -266,10 +268,11 @@ img {
   background: #9E6DC2;
   color: #ffffff;
   width: 27.5rem;
-  height: 28rem;
-  margin-left: 0.5rem;
+  /* height: 28rem; */
+  height: auto;
+  margin-left: 0.25rem;
   
-  top: 110rem;
+  top: 98rem;
 
   width: 98%;  
   border-radius: 0.6rem;
