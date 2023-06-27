@@ -17,8 +17,57 @@
 
  // Adicione um ouvinte de eventos para o formulário de login:
 
-var form = document.getElementById("login-form");
-form.addEventListener("submit", function(event) {
-  event.preventDefault(); // Impede que o formulário seja enviado
-  checkPassword(); // Verifique a senha
-});
+// var form = document.getElementById("login-form");
+// form.addEventListener("submit", function(event) {
+//   event.preventDefault(); // Impede que o formulário seja enviado
+//   checkPassword(); // Verifique a senha
+// });
+
+// // Verifica se já existe um contador no localStorage
+// if(localStorage.getItem('visits')) {
+//   // Se já existir, incrementa o contador em 1
+//   var visits = parseInt(localStorage.getItem('visits')) + 1;
+//   localStorage.setItem('visits', visits);
+// } else {
+//   // Se não existir, cria um novo contador com valor 1
+//   localStorage.setItem('visits', 1);
+// }
+
+// // Exibe o número de visitas na página
+// document.getElementById('visit-count').textContent = 'Número de visitas: ' + localStorage.getItem('visits');
+
+
+
+// Função para obter a data atual no formato "YYYY-MM-DD"
+function getCurrentDate() {
+  var today = new Date();
+  var year = today.getFullYear();
+  var month = String(today.getMonth() + 1).padStart(2, '0');
+  var day = String(today.getDate()).padStart(2, '0');
+  return year + '-' + month + '-' + day;
+}
+
+// Verifica se já existe um contador para a data atual no localStorage
+var currentDate = getCurrentDate();
+if(localStorage.getItem(currentDate)) {
+  // Se já existir, incrementa o contador em 1
+  var visits = parseInt(localStorage.getItem(currentDate)) + 1;
+  localStorage.setItem(currentDate, visits);
+} else {
+  // Se não existir, cria um novo contador com valor 1
+  localStorage.setItem(currentDate, 1);
+}
+
+// Obter o total de acessos nos últimos três dias
+var totalVisits = 0;
+for (var i = 0; i < 3; i++) {
+  var date = new Date();
+  date.setDate(date.getDate() - i);
+  var dateString = date.toISOString().split('T')[0];
+  if (localStorage.getItem(dateString)) {
+    totalVisits += parseInt(localStorage.getItem(dateString));
+  }
+}
+
+// Exibir o total de acessos nos últimos três dias
+console.log('Total de acessos nos últimos três dias: ' + totalVisits);
