@@ -13,6 +13,9 @@
   gtag('config', 'G-RXL4N69CXJ');
 </script>
 
+<script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-database.js"></script>
+
 
 
 
@@ -85,5 +88,29 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="main.js"></script>
     <script src="./pages/pages.js"></script>
+
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      // const firebaseConfig = {
+      //   apiKey: "AIzaSyC0XwFv-0axUKbUjx3cGzcRFhcxe3L2snE",
+      //   authDomain: "coisinha-69089.firebaseapp.com",
+      //   projectId: "coisinha-69089",
+      //   storageBucket: "coisinha-69089.appspot.com",
+      //   messagingSenderId: "698136019508",
+      //   appId: "1:698136019508:web:d8891374feed317f8c4061",
+      //   measurementId: "G-S88SVDV37Q"
+      // };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
   </body>
 </html>

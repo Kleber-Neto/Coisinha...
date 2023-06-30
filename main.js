@@ -77,18 +77,65 @@ console.log('Total de acessos nos últimos três dias: ' + totalVisits);
 
 //              ///
 
+// function salvarTexto() {
+//   var texto = document.getElementById("texto").value;
+//   localStorage.setItem("textoSalvo", texto);
+//   alert("Texto salvo com sucesso!");
+// }
+
+// function carregarTexto() {
+//   var textoSalvo = localStorage.getItem("textoSalvo");
+//   if (textoSalvo) {
+//     document.getElementById("texto").value = textoSalvo;
+//     alert("Texto carregado com sucesso!");
+//   } else {
+//     alert("Nenhum texto foi salvo anteriormente.");
+//   }
+// }
+
+
+// Inicialize o Firebase com as credenciais do seu projeto
+var firebaseConfig = {
+  // Insira suas credenciais do Firebase aqui
+
+    apiKey: "AIzaSyC0XwFv-0axUKbUjx3cGzcRFhcxe3L2snE",
+    authDomain: "coisinha-69089.firebaseapp.com",
+    projectId: "coisinha-69089",
+    storageBucket: "coisinha-69089.appspot.com",
+    messagingSenderId: "698136019508",
+    appId: "1:698136019508:web:d8891374feed317f8c4061",
+    measurementId: "G-S88SVDV37Q"
+};
+firebase.initializeApp(firebaseConfig);
+
+// Referência ao nó "textos" no Realtime Database
+var textosRef = firebase.database().ref("textos");
+
 function salvarTexto() {
   var texto = document.getElementById("texto").value;
-  localStorage.setItem("textoSalvo", texto);
-  alert("Texto salvo com sucesso!");
+
+  // Crie um novo nó para armazenar o texto
+  textosRef.push().set({
+     texto: texto
+  }).then(function () {
+     alert("Texto salvo com sucesso!");
+  }).catch(function (error) {
+     console.error("Erro ao salvar o texto:", error);
+  });
 }
 
 function carregarTexto() {
-  var textoSalvo = localStorage.getItem("textoSalvo");
-  if (textoSalvo) {
-    document.getElementById("texto").value = textoSalvo;
-    alert("Texto carregado com sucesso!");
-  } else {
-    alert("Nenhum texto foi salvo anteriormente.");
-  }
+  // Recupere o último texto inserido
+  textosRef.limitToLast(1).once("value").then(function (snapshot) {
+     var texto = snapshot.val();
+     if (texto) {
+        document.getElementById("texto").value = texto.texto;
+        alert("Texto carregado com sucesso!");
+     } else {
+        alert("Nenhum texto foi salvo anteriormente.");
+     }
+  }).catch(function (error) {
+     console.error("Erro ao carregar o texto:", error);
+  });
 }
+
