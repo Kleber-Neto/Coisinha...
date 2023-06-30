@@ -71,3 +71,24 @@ for (var i = 0; i < 3; i++) {
 
 // Exibir o total de acessos nos últimos três dias
 console.log('Total de acessos nos últimos três dias: ' + totalVisits);
+
+
+
+
+//              ///
+
+function salvarTexto() {
+  var texto = document.getElementById("texto").value;
+  localStorage.setItem("textoSalvo", texto);
+  alert("Texto salvo com sucesso!");
+}
+
+function carregarTexto() {
+  var textoSalvo = localStorage.getItem("textoSalvo");
+  if (textoSalvo) {
+    document.getElementById("texto").value = textoSalvo;
+    alert("Texto carregado com sucesso!");
+  } else {
+    alert("Nenhum texto foi salvo anteriormente.");
+  }
+}

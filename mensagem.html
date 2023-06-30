@@ -57,6 +57,62 @@
         width: 100%;
       }
 
+      .cardDay2 {
+        background: #fc466b;
+        position: absolute;
+
+        color: #ffffff;
+        font-size: 2rem;
+        /* width: 43.6rem; */
+
+        /* height: 41.9rem; */
+        height: auto;
+        /* margin-left: 0.3rem; */
+        top: 60.9rem;
+
+        font-family: 'Indie Flower', cursiva;
+        border-radius: 0.6rem;
+
+        width: 100%;
+      }
+
+      textarea {
+      /* width: 300px;
+      height: 200px; */
+
+      background: #ffffff;
+        /* position: absolute; */
+
+        color: #000000;
+        font-size: 2rem;
+        /* width: 43.6rem; */
+
+        /* height: 41.9rem; */
+        height: auto;
+        /* margin-left: 0.3rem; */
+        /* top: 60.9rem; */
+
+        font-family: 'Indie Flower', cursiva;
+        border-radius: 0.6rem;
+
+        width: 100%;
+    }
+
+    button {
+      background: #ffffff;
+  color: #000;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #8f7cec, 0 0 25px #8f7cec, 0 0 50px #8f7cec,
+    0 0 100px #8f7cec;
+  
+  margin-left: 1rem;
+}
+
+  button:hover {
+    background: #8f7cec;
+  }
+    
+
       .DeclaraDay {
   font-family: 'Indie Flower', cursiva;
   /* font-family: 'Dancing Script', cursivo; */
@@ -94,5 +150,19 @@ sinto tanto sua falta...</p><a onclick="closeMenu()" href="https://youtu.be/F643
          
       </p>
     </div>
+
+
+    <div class="cardDay2">
+
+      <h1>DIGITA AQUI!</h1>
+      <textarea id="texto"></textarea>
+      <button onclick="salvarTexto()">Salvar</button>
+      <button onclick="carregarTexto()">Carregar</button>
+
+    </div>
+
+
+
+    <script src="main.js"></script>
   </body>
 </html>
