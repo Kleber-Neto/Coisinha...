@@ -96,8 +96,6 @@ console.log('Total de acessos nos últimos três dias: ' + totalVisits);
 
 // Inicialize o Firebase com as credenciais do seu projeto
 var firebaseConfig = {
-  // Insira suas credenciais do Firebase aqui
-
     apiKey: "AIzaSyC0XwFv-0axUKbUjx3cGzcRFhcxe3L2snE",
     authDomain: "coisinha-69089.firebaseapp.com",
     projectId: "coisinha-69089",
