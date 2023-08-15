@@ -17,11 +17,11 @@
 
  // Adicione um ouvinte de eventos para o formulário de login:
 
-// var form = document.getElementById("login-form");
-// form.addEventListener("submit", function(event) {
-//   event.preventDefault(); // Impede que o formulário seja enviado
-//   checkPassword(); // Verifique a senha
-// });
+var form = document.getElementById("login-form");
+form.addEventListener("submit", function(event) {
+  event.preventDefault(); // Impede que o formulário seja enviado
+  checkPassword(); // Verifique a senha
+});
 
 // // Verifica se já existe um contador no localStorage
 // if(localStorage.getItem('visits')) {
