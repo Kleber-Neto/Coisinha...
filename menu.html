@@ -16,7 +16,7 @@
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mensagem...</title>
+    <title>Memórias...</title>
 
     <link rel="shortcut icon" href="../image/favicon.ico" type="image/x-icon" />
 
@@ -39,7 +39,7 @@
 
     <style>
       .cardDay {
-        background: linear-gradient(to bottom, #fc466b 22%, #ffffff 22%);
+        background: linear-gradient(to bottom, #fc466b 100%, #ffffff 0%);
         position: absolute;
 
         color: #000000;
@@ -47,9 +47,9 @@
         /* width: 43.6rem; */
 
         /* height: 41.9rem; */
-        height: auto;
+        height: 10rem;
         /* margin-left: 0.3rem; */
-        top: 27.9rem;
+        top: 20.9rem;
 
         font-family: 'Indie Flower', cursiva;
         border-radius: 0.6rem;
@@ -101,11 +101,14 @@
     button {
       background: #ffffff;
   color: #000;
-  border-radius: 5px;
+  border-radius: 1.5rem;
   box-shadow: 0 0 5px #8f7cec, 0 0 25px #8f7cec, 0 0 50px #8f7cec,
     0 0 100px #8f7cec;
   
-  margin-left: 1rem;
+  margin-left: 3rem;
+  margin-right: 2rem;
+  height: 2rem;
+  width: 50%;
 }
 
   button:hover {
@@ -138,7 +141,7 @@
   </head>
   <body>
     <div class="navbar">
-      <h1 class="logotwu">Mensagem Day...</h1>
+      <h1 class="logotwu">Menu...</h1>
 
       <ul class="al">
         <li class="a"><a onclick="closeMenu()" href="index.html">Inicil</a></li>
@@ -152,39 +155,23 @@
     </div>
 
     <div class="cardDay">
-       <h1 class="feliz">AQUELE DIA...</h1> 
-    <p class="DeclaraDay">
       
-
-       sabe qual é a minha memória favorita nossa?<br>
-       <br>
-       Aquele abraço que você me deu na frente da igreja sempre será minha memória favorita...
-
-      <div>
-
-
-    <!-- INSTRUÇÕES...<br>
-    clica na área branca la embaixo, digita algo e clica em salvar...<br>
-    só me diz se vc ta entrando aqui... -->
-</p><a onclick="closeMenu()" href="https://youtu.be/oHfqi7VSWqw?si=BqLJRC-11ty_jCxR">escuta</a>
-        <!-- &#128156&#129505  -->
-
-         
-      </p>
+       <ul class="al">
+        <li class="a">
+          <a onclick="closeMenu()" href="memoria.html"><button>Memórias</button></a>
+          </li>
+        <li class="a">
+          <a onclick="closeMenu()" href="pagina_protegida.html"><button>Músicas</button></a>
+        </li>
+        <li class="a">
+          <a onclick="closeMenu()" href="./pages/bts.html"><button>Bts</button></a>
+        </li>
+      </ul>
     </div>
 
-<!-- 
-    <div class="cardDay2">
+    </div>
 
-      <h1>DIGITA AQUI!</h1>
-      <textarea id="texto"></textarea>
-      <button onclick="salvarTexto()">Salvar</button>
-      <button onclick="carregarTexto()">Carregar</but>
-
-    </div> -->
-
-
-
+    
     <script src="main.js"></script>
     <script type="module">
       // Import the functions you need from the SDKs you need

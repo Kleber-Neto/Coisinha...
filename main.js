@@ -8,7 +8,7 @@
   // Verifique se a senha é correta
   if (username === "Coisinha" && password === "1131518") {
     // Se a senha estiver correta, redirecione para a página protegida
-    window.location.href = "pagina_protegida.html";
+    window.location.href = "menu.html";
   } else {
     // Se a senha estiver incorreta, exiba uma mensagem de erro
     alert("Nome de usuário ou senha incorretos.");
