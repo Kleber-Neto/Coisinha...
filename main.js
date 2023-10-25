@@ -23,6 +23,10 @@ form.addEventListener("submit", function(event) {
   checkPassword(); // Verifique a senha
 });
 
+
+
+
+
 // // Verifica se já existe um contador no localStorage
 // if(localStorage.getItem('visits')) {
 //   // Se já existir, incrementa o contador em 1
