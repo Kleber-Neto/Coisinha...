@@ -215,7 +215,14 @@ body {
 height: 250px;
 border-radius: 30px 30px 30px 30px;
 filter: drop-shadow(2px 4px 8px #585858);
-display: inline-block;
-margin-left: 10rem;
+/* display: inline-block; */
+text-align: center;
+
+
+    
+margin-left: 5rem;
+
+
+
 }
 
