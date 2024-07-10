@@ -79,7 +79,7 @@
         width: 100%;
       }
 
-      textarea {
+       textarea {
       /* width: 300px;
       height: 200px; */
 
@@ -99,9 +99,44 @@
         border-radius: 0.6rem;
 
         width: 100%;
-    }
+    } 
 
+      /* Estilo base para os botões */
+  button {
+    background: #ffffff;
+    color: #000;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 5px #8f7cec, 0 0 25px #8f7cec, 0 0 50px #8f7cec, 0 0 100px #8f7cec;
+    margin: 1rem 0.5rem;
+    height: 2.5rem; /* Aumentado para melhor visualização do texto */
+    width: calc(100% - 1rem);
+    max-width: 400px;
+    transition: background 0.3s ease;
+    font-size: 1rem; /* Ajustado para legibilidade */
+  }
+
+  button:hover {
+    background: #8f7cec;
+  }
+
+  /* Layout responsivo para telas pequenas */
+  @media (max-width: 768px) {
     button {
+      width: calc(100% - 1rem);
+      margin: 0.5rem 0;
+    }
+  }
+
+  /* Layout responsivo para telas muito pequenas */
+  @media (max-width: 480px) {
+    button {
+      width: calc(100% - 2rem);
+      margin: 0.5rem 0;
+      font-size: 0.9rem;
+    }
+  }
+
+    /* button {
       background: #ffffff;
   color: #000;
   border-radius: 1.5rem;
@@ -116,26 +151,26 @@
 
   button:hover {
     background: #8f7cec;
-  }
+  } */
     
 
-      .DeclaraDay {
+      /* .DeclaraDay {
   font-family: 'Indie Flower', cursiva;
-  /* font-family: 'Dancing Script', cursivo; */
+  /* font-family: 'Dancing Script', cursivo; 
   margin-left: 5px;
   font-weight: 600px; 
   margin-top: 10.3rem;
   font-size: 1.7rem;
-      } 
+      }  */
 
-      .sorriso {
+      /* .sorriso {
         width: 150px;
   height: 150px;
   border-radius: 30px 30px 30px 30px;
   filter: drop-shadow(2px 4px 8px #585858);
   display: inline-block;
   margin-left: 10rem;
-      }
+      } */
   
 
      
